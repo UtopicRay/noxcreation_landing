@@ -17,7 +17,7 @@ function HeroSection() {
       paddingBottom="80px"
     >
       <Box display="flex" gap="24px" flexDirection="column">
-        <Text className={styles.title}>It’s time to take a break</Text>
+        <Text className="title">It’s time to take a break</Text>
         <Text color="#475569" fontWeight="lighter">
           Build your meditation skills with an app that gives you all you need!
         </Text>
@@ -26,6 +26,7 @@ function HeroSection() {
             <Input
               rounded="2xl"
               placeholder="Enter your name"
+              borderColor="#CBD5E1"
               paddingX="3"
             ></Input>
           </Field>

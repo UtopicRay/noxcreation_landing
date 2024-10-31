@@ -6,17 +6,6 @@
     opacity: 0px;
 }
 
-.title {
-    font-size: 72px;
-    font-weight: 800;
-    line-height: 79.2px;
-    text-align: center;
-    background: linear-gradient(90deg, #c026d3 0%, #701a75 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .images {
     gap: 10px;
     border-radius: 20px;
