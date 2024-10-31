@@ -29,10 +29,4 @@ export const NavigationLinks:NavigationLink[] = [
     key: "log_in",
     label: "Log In",
   },
-
-  {
-    link: "/",
-    key: "start_now",
-    label: "Start Now",
-  },
 ];
