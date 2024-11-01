@@ -22,7 +22,7 @@ body {
 }
 
 .title {
-    font-size: 72px;
+    font-size: 56px;
     font-weight: 800;
     line-height: 79.2px;
     text-align: center;
@@ -30,4 +30,12 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.text {
+    font-family: Roboto;
+    color: #21272a;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
 }

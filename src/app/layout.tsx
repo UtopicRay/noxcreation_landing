@@ -3,6 +3,7 @@ import { Provider } from "@/components/ui/provider";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,10 +30,11 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Provider>
-          <Header></Header>
+          <Header/>
           <main>
           {children}
           </main>
+          <Footer/>
         </Provider>
       </body>
     </html>

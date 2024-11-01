@@ -128,7 +128,7 @@ export const Solutions: NavigationLink[] = [
     label: "Concept",
   },
 ];
-export const Resources = [
+export const Resources:NavigationLink[] = [
   {
     link: "/",
     key: "help",
@@ -160,7 +160,7 @@ export const Resources = [
     label: "Events",
   },
 ];
-export const Support=[
+export const Support:NavigationLink[] = [
   {
     link: "/",
     key: "contact",
@@ -191,9 +191,9 @@ export const Support=[
     key: "webinar",
     label: "Webinar",
   },
-]
+];
 
-export const Company=[
+export const Company:NavigationLink[] = [
   {
     link: "/",
     key: "about",
@@ -224,12 +224,42 @@ export const Company=[
     key: "partners",
     label: "Partners",
   },
-]
+];
 
-
-
-
-
-
-
-
+export const Questions = [
+  {
+    id:1,
+    question:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, unde?",
+    answer:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, maxime animi aspernatur dolor ipsam ipsum veritatis culpa veniam impedit rerum.",
+  },
+  {
+    id:5,
+    question:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, unde?",
+    answer:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, maxime animi aspernatur dolor ipsam ipsum veritatis culpa veniam impedit rerum.",
+  },
+  {
+    id:2,
+    question:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, unde?",
+    answer:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, maxime animi aspernatur dolor ipsam ipsum veritatis culpa veniam impedit rerum.",
+  },
+  {
+    id:3,
+    question:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, unde?",
+    answer:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, maxime animi aspernatur dolor ipsam ipsum veritatis culpa veniam impedit rerum.",
+  },
+  {
+    id:4,
+    question:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, unde?",
+    answer:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, maxime animi aspernatur dolor ipsam ipsum veritatis culpa veniam impedit rerum.",
+  },
+];
