@@ -18,8 +18,8 @@ import {
 
 function Footer() {
   return (
-    <Box as="footer" display="grid" paddingX="80px" gapX={12}>
-      <Grid templateColumns="repeat(6, 1fr)" margin="auto" width="100%" paddingY="48px" borderBottom="1px solid #E2E8F0">
+    <Box as="footer" display="grid" paddingX={{base:"16px",md:"80px"}} gapX={12}>
+      <Grid templateColumns={{base:"repeat(1,1fr)",md:"repeat(6, 1fr)"}} margin="auto" width="100%" paddingY="48px" borderBottom="1px solid #E2E8F0">
         <ListItem title="Categories" List={Categories}></ListItem>
         <ListItem title="Products" List={Products}></ListItem>
         <ListItem title="Solutions" List={Solutions}></ListItem>
@@ -27,8 +27,8 @@ function Footer() {
         <ListItem title="Support" List={Support}></ListItem>
         <ListItem title="Company" List={Company}></ListItem>
       </Grid>
-      <Box display="flex" justifyContent="space-between">
-        <Box display="flex" justifyItems="center" alignItems="center" gap="2">
+      <Box display="flex" justifyContent="space-between" flexDirection={{base:"column",md:"row"}}>
+        <Box display="flex" flexDirection={{base:"column",md:"row"}} justifyItems="center" alignItems={{base:"left",md:"center"}} gap="2">
           <Text textStyle="xl" fontWeight="bold" style={{ color: "black" }}>
             break<span style={{ color: "#C026D3" }}>io</span>
           </Text>
