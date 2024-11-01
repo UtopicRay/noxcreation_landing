@@ -3,6 +3,7 @@ import hero_section from "../../../public/imgs/hero_image.jpeg";
 import { Box, Button, Flex, Input, Text } from "@chakra-ui/react";
 import { Field } from "../ui/field";
 import Image from "next/image";
+import SectionText from "../SectionText";
 
 function HeroSection() {
   return (
@@ -16,12 +17,11 @@ function HeroSection() {
       paddingTop="56px"
       paddingBottom="80px"
     >
-      <Box display="flex" gap="24px" flexDirection="column">
-        <Text className="title">It’s time to take a break</Text>
-        <Text color="#475569" fontWeight="lighter">
-          Build your meditation skills with an app that gives you all you need!
-        </Text>
-        <Box display="flex" gap="8" margin="auto">
+      <SectionText
+        title="It’s time to take a break"
+        description="Build your meditation skills with an app that gives you all you need!"
+      >
+        <Box display="flex" gapX={3} marginTop={1}>
           <Field width={700}>
             <Input
               rounded="2xl"
@@ -41,7 +41,7 @@ function HeroSection() {
             Start Now
           </Button>
         </Box>
-      </Box>
+      </SectionText>
       <Image className={styles.images} src={hero_section} alt="image"></Image>
     </Box>
   );
