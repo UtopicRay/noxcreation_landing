@@ -14,3 +14,8 @@ export type QuestionProps = {
   question: string;
   answer: string;
 };
+export type Favourite={
+  icon:any,
+  title:string,
+  description:string
+}

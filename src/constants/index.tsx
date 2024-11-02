@@ -278,8 +278,8 @@ export const favourites = [
   {
     icon: (
       <IconMailFast
-        color="#701a75"
-        style={{ width: "64px", height: "64px" }}
+        color="#C026D3"
+        style={{ width: "50px", height: "50px" }}
       ></IconMailFast>
     ),
     title: "Sapien amet est",
@@ -289,8 +289,8 @@ export const favourites = [
   {
     icon: (
       <IconMap2
-        color="#701a75"
-        style={{ width: "64px", height: "64px" }}
+        color="#C026D3"
+        style={{ width: "50px", height: "50px" }}
       ></IconMap2>
     ),
     title: "Tortor ornare",
@@ -300,8 +300,8 @@ export const favourites = [
   {
     icon: (
       <IconManualGearbox
-        color="#701a75"
-        style={{ width: "64px", height: "64px" }}
+        color="#C026D3"
+        style={{ width: "50px", height: "50px" }}
       />
     ),
     title: "Vel lacus",
@@ -310,7 +310,7 @@ export const favourites = [
   },
   {
     icon: (
-      <IconLock color="#701a75" style={{ width: "64px", height: "64px" }} />
+      <IconLock color="#C026D3" style={{ width: "50px", height: "50px" }} />
     ),
     title: "Hendrerit blandit",
     description:
@@ -318,7 +318,7 @@ export const favourites = [
   },
   {
     icon: (
-      <IconLayoutDashboard color="#701a75" style={{ width: "64px", height: "64px" }} />
+      <IconLayoutDashboard color="#C026D3" style={{ width: "50px", height: "50px" }} />
     ),
     title: "Sapien amet est",
     description:
@@ -326,21 +326,21 @@ export const favourites = [
   },
   {
     icon: (
-      <IconMarkdown color="#701a75" style={{ width: "64px", height: "64px" }} />
+      <IconMarkdown color="#C026D3" style={{ width: "50px", height: "50px" }} />
     ),
     title: "Aliquam lorem et",
     description:
       "Suspendisse ultrices morbi iaculis sit lorem. Mauris nulla odio est a mi a sed gravida.",
   },
   {
-    icon: <IconPig color="#701a75" style={{ width: "64px", height: "64px" }} />,
+    icon: <IconPig color="#C026D3" style={{ width: "50px", height: "50px" }} />,
     title: "Sed aliquam lectus",
     description:
       "Rhoncus ut montes quis eget vulputate. Id hac consectetur ornare neque.",
   },
   {
     icon: (
-      <IconFlag color="#701a75" style={{ width: "64px", height: "64px" }} />
+      <IconFlag color="#C026D3" style={{ width: "50px", height: "50px" }} />
     ),
     title: "Cursus diam",
     description:
@@ -349,8 +349,8 @@ export const favourites = [
   {
     icon: (
       <IconViewfinder
-        color="#701a75"
-        style={{ width: "64px", height: "64px" }}
+        color="#C026D3"
+        style={{ width: "50px", height: "50px" }}
       />
     ),
     title: "Facilisi vel malesuada",
