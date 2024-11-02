@@ -1,4 +1,15 @@
 import { NavigationLink } from "@/types";
+import {
+  IconFlag,
+  IconLayoutDashboard,
+  IconLock,
+  IconMailFast,
+  IconManualGearbox,
+  IconMap2,
+  IconMarkdown,
+  IconPig,
+  IconViewfinder,
+} from "@tabler/icons-react";
 
 export const NavigationLinks: NavigationLink[] = [
   {
@@ -128,7 +139,7 @@ export const Solutions: NavigationLink[] = [
     label: "Concept",
   },
 ];
-export const Resources:NavigationLink[] = [
+export const Resources: NavigationLink[] = [
   {
     link: "/",
     key: "help",
@@ -160,7 +171,7 @@ export const Resources:NavigationLink[] = [
     label: "Events",
   },
 ];
-export const Support:NavigationLink[] = [
+export const Support: NavigationLink[] = [
   {
     link: "/",
     key: "contact",
@@ -193,7 +204,7 @@ export const Support:NavigationLink[] = [
   },
 ];
 
-export const Company:NavigationLink[] = [
+export const Company: NavigationLink[] = [
   {
     link: "/",
     key: "about",
@@ -228,38 +239,122 @@ export const Company:NavigationLink[] = [
 
 export const Questions = [
   {
-    id:1,
+    id: 1,
     question:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, unde?",
     answer:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, maxime animi aspernatur dolor ipsam ipsum veritatis culpa veniam impedit rerum.",
   },
   {
-    id:5,
+    id: 5,
     question:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, unde?",
     answer:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, maxime animi aspernatur dolor ipsam ipsum veritatis culpa veniam impedit rerum.",
   },
   {
-    id:2,
+    id: 2,
     question:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, unde?",
     answer:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, maxime animi aspernatur dolor ipsam ipsum veritatis culpa veniam impedit rerum.",
   },
   {
-    id:3,
+    id: 3,
     question:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, unde?",
     answer:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, maxime animi aspernatur dolor ipsam ipsum veritatis culpa veniam impedit rerum.",
   },
   {
-    id:4,
+    id: 4,
     question:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, unde?",
     answer:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, maxime animi aspernatur dolor ipsam ipsum veritatis culpa veniam impedit rerum.",
+  },
+];
+export const favourites = [
+  {
+    icon: (
+      <IconMailFast
+        color="#701a75"
+        style={{ width: "64px", height: "64px" }}
+      ></IconMailFast>
+    ),
+    title: "Sapien amet est",
+    description:
+      "Viverra netus odio nunc ac nibh lorem iaculis. Orci facilisis habitasse cursus tempor et.",
+  },
+  {
+    icon: (
+      <IconMap2
+        color="#701a75"
+        style={{ width: "64px", height: "64px" }}
+      ></IconMap2>
+    ),
+    title: "Tortor ornare",
+    description:
+      "Nulla etiam mattis amet suspendisse lacus nulla sed urna ultricies.",
+  },
+  {
+    icon: (
+      <IconManualGearbox
+        color="#701a75"
+        style={{ width: "64px", height: "64px" }}
+      />
+    ),
+    title: "Vel lacus",
+    description:
+      "Porttitor quis lectus varius quis dolor morbi massa pellentesque.",
+  },
+  {
+    icon: (
+      <IconLock color="#701a75" style={{ width: "64px", height: "64px" }} />
+    ),
+    title: "Hendrerit blandit",
+    description:
+      "A aliquam pharetra in nec vitae ultrices commodo placerat eget.",
+  },
+  {
+    icon: (
+      <IconLayoutDashboard color="#701a75" style={{ width: "64px", height: "64px" }} />
+    ),
+    title: "Sapien amet est",
+    description:
+      "Viverra netus odio nunc ac nibh lorem iaculis. Orci facilisis habitasse cursus tempor et.",
+  },
+  {
+    icon: (
+      <IconMarkdown color="#701a75" style={{ width: "64px", height: "64px" }} />
+    ),
+    title: "Aliquam lorem et",
+    description:
+      "Suspendisse ultrices morbi iaculis sit lorem. Mauris nulla odio est a mi a sed gravida.",
+  },
+  {
+    icon: <IconPig color="#701a75" style={{ width: "64px", height: "64px" }} />,
+    title: "Sed aliquam lectus",
+    description:
+      "Rhoncus ut montes quis eget vulputate. Id hac consectetur ornare neque.",
+  },
+  {
+    icon: (
+      <IconFlag color="#701a75" style={{ width: "64px", height: "64px" }} />
+    ),
+    title: "Cursus diam",
+    description:
+      "Feugiat consectetur eu commodo odio venenatis pretium libero. Volutpat ultricies nisl turpis id.",
+  },
+  {
+    icon: (
+      <IconViewfinder
+        color="#701a75"
+        style={{ width: "64px", height: "64px" }}
+      />
+    ),
+    title: "Facilisi vel malesuada",
+    description:
+      "Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integer sit.",
   },
 ];
