@@ -1,8 +1,7 @@
 import styles from "./HeroSection.module.css";
 import hero_section from "../../../public/imgs/hero_image.jpeg";
-import { Box, Button, Flex, Input, Text } from "@chakra-ui/react";
+import { Box, Button, Image, Flex, Input, Text } from "@chakra-ui/react";
 import { Field } from "../ui/field";
-import Image from "next/image";
 import SectionText from "../SectionText";
 
 function HeroSection() {
@@ -12,9 +11,9 @@ function HeroSection() {
       textAlign="center"
       display="flex"
       flexDirection="column"
-      gapY="80px"
-      paddingX={`80px`}
-      paddingTop="56px"
+      gapY={18}
+      paddingX={{ base: "20px", md: "80px" }}
+      paddingTop={13}
       paddingBottom="80px"
     >
       <SectionText
@@ -22,27 +21,37 @@ function HeroSection() {
         description="Build your meditation skills with an app that gives you all you need!"
       >
         <Box display="flex" gapX={3} marginTop={1}>
-          <Field width={700}>
+          <Field width={{ base: "52", md: "xl" }}>
             <Input
               rounded="2xl"
               placeholder="Enter your name"
               borderColor="#CBD5E1"
-              paddingX="3"
+              fontWeight={"400"}
+              color={"#475569"}
+              paddingX={{base:"3",md:"8"}}
+              paddingY={7}
             ></Input>
           </Field>
-
           <Button
             color="white"
             bgColor="#C026D3"
-            padding="3"
-            rounded="xl"
+            paddingX={{base:"5",md:"8"}}
+            paddingY={7}
+            rounded="3xl"
             fontWeight="semibold"
+            textStyle={{base:"md",md:"xl"}}
           >
             Start Now
           </Button>
         </Box>
       </SectionText>
-      <Image className={styles.images} src={hero_section} alt="image"></Image>
+      <Image
+        width={"full"}
+        height={{ base: "auto", md: "350px" }}
+        className={styles.images}
+        src={hero_section.src}
+        alt="image"
+      ></Image>
     </Box>
   );
 }
