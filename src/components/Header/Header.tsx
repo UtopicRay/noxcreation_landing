@@ -56,7 +56,7 @@ function Header() {
           </MenuTrigger>
           <MenuContent background={"white"}>
             {NavigationLinks.map((link) => (
-              <MenuItem color={"black"} margin={4} value={link.link}>
+              <MenuItem key={link.key} color={"black"} margin={4} value={link.link}>
                 {link.label}
               </MenuItem>
             ))}
