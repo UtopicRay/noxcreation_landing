@@ -32,7 +32,7 @@ function HeroSection() {
               paddingY={7}
             ></Input>
           </Field>
-          <Button
+          <Button 
             color="white"
             bgColor="#C026D3"
             paddingX={{base:"5",md:"8"}}
@@ -48,7 +48,7 @@ function HeroSection() {
       <Image
         width={"full"}
         height={{ base: "auto", md: "350px" }}
-        className={styles.images}
+        className={`${styles.images} animate__animated  animate__fadeInDown`}
         src={hero_section.src}
         alt="image"
       ></Image>

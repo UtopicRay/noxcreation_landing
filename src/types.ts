@@ -20,6 +20,7 @@ export type Favourite = {
   description: string;
 };
 export type StoryProps = {
+  isPromoted?:boolean;
   image: string;
   title: string;
   avatar: string;

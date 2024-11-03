@@ -1,5 +1,6 @@
 import { Box, Flex } from "@chakra-ui/react";
 import SectionText from "../SectionText";
+import styles from "./Story.module.css";
 import StoryCard from "./StoryCard";
 import { stories } from "@/constants";
 import ButtonLeft from "../ButtonLeft";
@@ -19,7 +20,7 @@ function StorySection() {
         alignItems={"center"}
       >
         <ButtonLeft />
-        <Box display={"flex"} gapX={3}>
+        <Box display={{base:"block",md:"flex"}} className={styles.horizontal_scroll}>
           {stories.map((item) => (
             <StoryCard
               key={item.id}
