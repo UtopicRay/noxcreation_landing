@@ -6,6 +6,8 @@ import userImage from "../../../public/imgs/users/userImage-1.jpeg";
 import { Box, Button, Card, Flex, Image, Text } from "@chakra-ui/react";
 import SectionText from "../SectionText";
 import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
+import ButtonRight from "../ButtonRight";
+import ButtonLeft from "../ButtonLeft";
 
 function UserSection() {
   return (
@@ -56,9 +58,7 @@ function UserSection() {
         justifyContent={"center"}
         alignItems={"center"}
       >
-        <Button rounded={"full"} display={{ base: "none", md: "block" }}>
-          <IconChevronLeft></IconChevronLeft>
-        </Button>
+        <ButtonLeft/>
         <Card.Root
           background="white"
           color="#0F172A"
@@ -96,9 +96,7 @@ function UserSection() {
             </Text>
           </Card.Footer>
         </Card.Root>
-        <Button rounded={"full"} display={{ base: "none", md: "block" }}>
-          <IconChevronRight />
-        </Button>
+       <ButtonRight/>
       </Flex>
     </Box>
   );
