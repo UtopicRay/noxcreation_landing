@@ -48,7 +48,7 @@ function HeroSection() {
       <Image
         width={"full"}
         height={{ base: "auto", md: "350px" }}
-        className={`${styles.images} animate__animated  animate__fadeInDown`}
+        className={`${styles.images}`}
         src={hero_section.src}
         alt="image"
       ></Image>

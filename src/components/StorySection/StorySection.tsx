@@ -20,7 +20,7 @@ function StorySection() {
         alignItems={"center"}
       >
         <ButtonLeft />
-        <Box display={{base:"block",md:"flex"}} className={styles.horizontal_scroll}>
+        <Box height={{base:"calc(100vh)",md:"auto"}} display={{base:"block",md:"flex"}} gapX={3} className={styles.horizontal_scroll} overflow={{base:"scroll",md:"visible"}}>
           {stories.map((item) => (
             <StoryCard
               key={item.id}
@@ -28,6 +28,7 @@ function StorySection() {
               title={item.title}
               avatar={item.avatar}
               autor={item.autor}
+              isPromoted={item.isPromoted}
             ></StoryCard>
           ))}
         </Box>

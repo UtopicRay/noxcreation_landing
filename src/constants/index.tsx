@@ -381,6 +381,7 @@ export const favourites = [
 export const stories = [
   {
     id: 1,
+    isPromoted:true,
     image: cardImage1.src,
     avatar: userImage1.src,
     title: "Flower Decorations",
