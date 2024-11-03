@@ -19,3 +19,8 @@ export type Favourite={
   title:string,
   description:string
 }
+export type StoryProps={
+  image:string,
+  title:string,
+  autor:string
+}

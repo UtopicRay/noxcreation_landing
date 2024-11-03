@@ -19,7 +19,7 @@ function FavoriteSection() {
       >
         {favourites.map((favourite) => (
           <Element
-            key={favourite.description}
+            key={favourite.id}
             description={favourite.description}
             icon={favourite.icon}
             title={favourite.title}

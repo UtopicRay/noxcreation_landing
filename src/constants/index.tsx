@@ -276,6 +276,7 @@ export const Questions = [
 ];
 export const favourites = [
   {
+    id:1,
     icon: (
       <IconMailFast
         color="#C026D3"
@@ -287,6 +288,7 @@ export const favourites = [
       "Viverra netus odio nunc ac nibh lorem iaculis. Orci facilisis habitasse cursus tempor et.",
   },
   {
+    id:2,
     icon: (
       <IconMap2
         color="#C026D3"
@@ -298,6 +300,7 @@ export const favourites = [
       "Nulla etiam mattis amet suspendisse lacus nulla sed urna ultricies.",
   },
   {
+    id:3,
     icon: (
       <IconManualGearbox
         color="#C026D3"
@@ -309,6 +312,7 @@ export const favourites = [
       "Porttitor quis lectus varius quis dolor morbi massa pellentesque.",
   },
   {
+    id:4,
     icon: (
       <IconLock color="#C026D3" style={{ width: "50px", height: "50px" }} />
     ),
@@ -317,6 +321,7 @@ export const favourites = [
       "A aliquam pharetra in nec vitae ultrices commodo placerat eget.",
   },
   {
+    id:5,
     icon: (
       <IconLayoutDashboard color="#C026D3" style={{ width: "50px", height: "50px" }} />
     ),
@@ -325,6 +330,7 @@ export const favourites = [
       "Viverra netus odio nunc ac nibh lorem iaculis. Orci facilisis habitasse cursus tempor et.",
   },
   {
+    id:6,
     icon: (
       <IconMarkdown color="#C026D3" style={{ width: "50px", height: "50px" }} />
     ),
@@ -333,12 +339,14 @@ export const favourites = [
       "Suspendisse ultrices morbi iaculis sit lorem. Mauris nulla odio est a mi a sed gravida.",
   },
   {
+    id:7,
     icon: <IconPig color="#C026D3" style={{ width: "50px", height: "50px" }} />,
     title: "Sed aliquam lectus",
     description:
       "Rhoncus ut montes quis eget vulputate. Id hac consectetur ornare neque.",
   },
   {
+    id:8,
     icon: (
       <IconFlag color="#C026D3" style={{ width: "50px", height: "50px" }} />
     ),
@@ -347,6 +355,7 @@ export const favourites = [
       "Feugiat consectetur eu commodo odio venenatis pretium libero. Volutpat ultricies nisl turpis id.",
   },
   {
+    id:9,
     icon: (
       <IconViewfinder
         color="#C026D3"
