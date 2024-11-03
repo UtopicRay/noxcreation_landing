@@ -3,7 +3,7 @@ import { IconChevronRight } from "@tabler/icons-react";
 
 function ButtonRight(){
 return(
-    <Button rounded={"full"} display={{ base: "none", md: "block" }} className="button">
+    <Button rounded={"full"} display={{ base: "none", md: "block" }} className="shadow">
     <IconChevronRight style={{margin:"auto"}} />
   </Button>
 );

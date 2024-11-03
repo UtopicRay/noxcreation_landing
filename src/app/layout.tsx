@@ -15,6 +15,11 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const geistRoboto=localFont({
+  src:"./fonts/Roboto-Regular.ttf",
+  variable:"--font-geist-roboto",
+  weight: "100 900"
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -28,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={geistRoboto.className}>
         <Provider>
           <Header/>
           <main>
