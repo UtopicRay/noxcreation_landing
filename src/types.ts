@@ -31,3 +31,7 @@ export type PostApi = {
   title: string;
   body: string;
 };
+export type InfoCardProps={
+  title:string,
+  body:string,
+}

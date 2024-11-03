@@ -5,6 +5,7 @@ import QuestionSection from "@/components/QuestionSection/QuestionSection";
 import FavoriteSection from "@/components/FavoriteSection/FavoriteSection";
 import UserSection from "@/components/UserSection/UserSection";
 import StorySection from "@/components/StorySection/StorySection";
+import ExtraSection from "@/components/ExtraSection/ExtraSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <SecondSection/>
       <StorySection/>
       <UserSection/>
+      <ExtraSection/>
       <FavoriteSection/>
       <QuestionSection/>
     </div>
