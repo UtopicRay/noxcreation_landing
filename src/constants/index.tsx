@@ -1,4 +1,12 @@
-import { NavigationLink } from "@/types";
+import { NavigationLink, StoryProps } from "@/types";
+import cardImage1 from "../../public/imgs/card/image-1.jpeg";
+import cardImage2 from "../../public/imgs/card/image-2.jpeg";
+import cardImage3 from "../../public/imgs/card/image-3.jpeg";
+import cardImage4 from "../../public/imgs/card/image-4.jpeg";
+import userImage1 from "../../public/imgs/users/userImage-1.jpeg";
+import userImage2 from "../../public/imgs/users/userImage-2.jpeg";
+import userImage3 from "../../public/imgs/users/userImage-3.jpeg";
+import userImage4 from "../../public/imgs/users/userImage-4.jpeg";
 import {
   IconFlag,
   IconLayoutDashboard,
@@ -276,7 +284,7 @@ export const Questions = [
 ];
 export const favourites = [
   {
-    id:1,
+    id: 1,
     icon: (
       <IconMailFast
         color="#C026D3"
@@ -288,7 +296,7 @@ export const favourites = [
       "Viverra netus odio nunc ac nibh lorem iaculis. Orci facilisis habitasse cursus tempor et.",
   },
   {
-    id:2,
+    id: 2,
     icon: (
       <IconMap2
         color="#C026D3"
@@ -300,7 +308,7 @@ export const favourites = [
       "Nulla etiam mattis amet suspendisse lacus nulla sed urna ultricies.",
   },
   {
-    id:3,
+    id: 3,
     icon: (
       <IconManualGearbox
         color="#C026D3"
@@ -312,7 +320,7 @@ export const favourites = [
       "Porttitor quis lectus varius quis dolor morbi massa pellentesque.",
   },
   {
-    id:4,
+    id: 4,
     icon: (
       <IconLock color="#C026D3" style={{ width: "50px", height: "50px" }} />
     ),
@@ -321,16 +329,19 @@ export const favourites = [
       "A aliquam pharetra in nec vitae ultrices commodo placerat eget.",
   },
   {
-    id:5,
+    id: 5,
     icon: (
-      <IconLayoutDashboard color="#C026D3" style={{ width: "50px", height: "50px" }} />
+      <IconLayoutDashboard
+        color="#C026D3"
+        style={{ width: "50px", height: "50px" }}
+      />
     ),
     title: "Sapien amet est",
     description:
       "Viverra netus odio nunc ac nibh lorem iaculis. Orci facilisis habitasse cursus tempor et.",
   },
   {
-    id:6,
+    id: 6,
     icon: (
       <IconMarkdown color="#C026D3" style={{ width: "50px", height: "50px" }} />
     ),
@@ -339,14 +350,14 @@ export const favourites = [
       "Suspendisse ultrices morbi iaculis sit lorem. Mauris nulla odio est a mi a sed gravida.",
   },
   {
-    id:7,
+    id: 7,
     icon: <IconPig color="#C026D3" style={{ width: "50px", height: "50px" }} />,
     title: "Sed aliquam lectus",
     description:
       "Rhoncus ut montes quis eget vulputate. Id hac consectetur ornare neque.",
   },
   {
-    id:8,
+    id: 8,
     icon: (
       <IconFlag color="#C026D3" style={{ width: "50px", height: "50px" }} />
     ),
@@ -355,7 +366,7 @@ export const favourites = [
       "Feugiat consectetur eu commodo odio venenatis pretium libero. Volutpat ultricies nisl turpis id.",
   },
   {
-    id:9,
+    id: 9,
     icon: (
       <IconViewfinder
         color="#C026D3"
@@ -365,5 +376,35 @@ export const favourites = [
     title: "Facilisi vel malesuada",
     description:
       "Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integer sit.",
+  },
+];
+export const stories = [
+  {
+    id: 1,
+    image: cardImage1.src,
+    avatar: userImage1.src,
+    title: "Flower Decorations",
+    autor: "by Melvina Spring",
+  },
+  {
+    id: 2,
+    image: cardImage2.src,
+    avatar: userImage2.src,
+    title: "Flower Decorations",
+    autor: "by Melvina Spring",
+  },
+  {
+    id: 3,
+    image: cardImage3.src,
+    avatar: userImage3.src,
+    title: "Splash",
+    autor: "by Rwanda Melflor",
+  },
+  {
+    id: 4,
+    image: cardImage4.src,
+    avatar: userImage4.src,
+    title: "Colorful Face",
+    autor: "by Melvina Spring",
   },
 ];
