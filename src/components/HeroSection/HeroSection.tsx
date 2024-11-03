@@ -1,5 +1,5 @@
 import styles from "./HeroSection.module.css";
-import hero_section from "../../../public/imgs/hero_image.jpeg";
+import hero_section from "../../../public/imgs/hero_image.webp";
 import { Box, Button, Image, Flex, Input, Text } from "@chakra-ui/react";
 import { Field } from "../ui/field";
 import SectionText from "../SectionText";

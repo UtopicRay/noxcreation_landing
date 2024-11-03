@@ -1,4 +1,4 @@
-import { Box, Grid, GridItem } from "@chakra-ui/react";
+import { Box, Grid } from "@chakra-ui/react";
 import SectionText from "../SectionText";
 import Element from "./Element";
 import { favourites } from "@/constants";

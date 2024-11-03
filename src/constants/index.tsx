@@ -1,12 +1,12 @@
 import { NavigationLink, StoryProps } from "@/types";
-import cardImage1 from "../../public/imgs/card/image-1.jpeg";
-import cardImage2 from "../../public/imgs/card/image-2.jpeg";
-import cardImage3 from "../../public/imgs/card/image-3.jpeg";
-import cardImage4 from "../../public/imgs/card/image-4.jpeg";
-import userImage1 from "../../public/imgs/users/userImage-1.jpeg";
-import userImage2 from "../../public/imgs/users/userImage-2.jpeg";
-import userImage3 from "../../public/imgs/users/userImage-3.jpeg";
-import userImage4 from "../../public/imgs/users/userImage-4.jpeg";
+import cardImage1 from "../../public/imgs/card/image-1.webp";
+import cardImage2 from "../../public/imgs/card/image-2.webp";
+import cardImage3 from "../../public/imgs/card/image-3.webp";
+import cardImage4 from "../../public/imgs/card/image-4.webp";
+import userImage1 from "../../public/imgs/users/userImage-1.webp";
+import userImage2 from "../../public/imgs/users/userImage-2.webp";
+import userImage3 from "../../public/imgs/users/userImage-3.webp";
+import userImage4 from "../../public/imgs/users/userImage-4.webp";
 import {
   IconFlag,
   IconLayoutDashboard,

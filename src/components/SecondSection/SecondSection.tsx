@@ -1,5 +1,5 @@
-import desktopDevice from "../../../public/imgs/SecondImage.png";
-import movileDevice from "../../../public/imgs/SecondImageSM.png";
+import desktopDevice from "../../../public/imgs/SecondImage.webp";
+import movileDevice from "../../../public/imgs/SecondImageSM.webp";
 import SectionText from "../SectionText";
 import {
   Box,

@@ -1,11 +1,10 @@
-import topVectorOutline from "../../../public/imgs/TopVector-1.png";
-import topVectorFilled from "../../../public/imgs/TopVector-2.png";
-import bottomVectorOutline from "../../../public/imgs/BottonVector-1.png";
-import bottomVectorFilled from "../../../public/imgs/BottomVector-2.png";
-import userImage from "../../../public/imgs/users/userImage-1.jpeg";
-import { Box, Button, Card, Flex, Image, Text } from "@chakra-ui/react";
+import topVectorOutline from "../../../public/imgs/TopVector-1.webp";
+import topVectorFilled from "../../../public/imgs/TopVector-2.webp";
+import bottomVectorOutline from "../../../public/imgs/BottonVector-1.webp";
+import bottomVectorFilled from "../../../public/imgs/BottomVector-2.webp";
+import userImage from "../../../public/imgs/users/userImage-1.webp";
+import { Box, Card, Flex, Image, Text } from "@chakra-ui/react";
 import SectionText from "../SectionText";
-import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
 import ButtonRight from "../ButtonRight";
 import ButtonLeft from "../ButtonLeft";
 
@@ -24,7 +23,7 @@ function UserSection() {
           top={0}
           right={0}
           zIndex={1}
-          width={{base:"20%",md:"auto"}}
+          width={{ base: "20%", md: "auto" }}
         ></Image>
         <Image
           position={"absolute"}
@@ -32,7 +31,7 @@ function UserSection() {
           top={0}
           right={0}
           zIndex={0}
-          width={{base:"20%",md:"auto"}}
+          width={{ base: "20%", md: "auto" }}
         ></Image>
         <Image
           position={"absolute"}
@@ -40,25 +39,25 @@ function UserSection() {
           bottom={0}
           left={0}
           zIndex={1}
-          width={{base:"30%",md:"auto"}}
+          width={{ base: "30%", md: "auto" }}
         ></Image>
         <Image
           position={"absolute"}
           src={bottomVectorOutline.src}
-          width={{base:"30%",md:"auto"}}
+          width={{ base: "30%", md: "auto" }}
           bottom={0}
           left={0}
           zIndex={0}
         ></Image>
       </Box>
-        <SectionText title="What other users say"></SectionText>
+      <SectionText title="What other users say"></SectionText>
       <Flex
         maxWidth={900}
         margin={"auto"}
         justifyContent={"center"}
         alignItems={"center"}
       >
-        <ButtonLeft/>
+        <ButtonLeft />
         <Card.Root
           background="white"
           color="#0F172A"
@@ -96,7 +95,7 @@ function UserSection() {
             </Text>
           </Card.Footer>
         </Card.Root>
-       <ButtonRight/>
+        <ButtonRight />
       </Flex>
     </Box>
   );
